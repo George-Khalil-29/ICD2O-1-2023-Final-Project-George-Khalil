@@ -3,7 +3,7 @@
 
 const CACHE_NAME = 'hello-world-cache-v1';
 const urlsToCache = [
-  '/',
+  'https://george-khalil-29.github.io/ICD2O-1-2023-Final-Project-George-Khalil/',
   'index.html' // Update with your actual HTML file name if different
 ];
 
