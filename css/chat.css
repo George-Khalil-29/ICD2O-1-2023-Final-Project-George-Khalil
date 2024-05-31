@@ -141,7 +141,7 @@
   }
 
   to {
-    transform: translateY(none);
+    transform: translateY(n);
     opacity: 1;
   }
 }
