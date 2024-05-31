@@ -19,12 +19,7 @@
     border-bottom: none;
 }
 
-.content {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    background-color: #f1f1f1;
-}
+
 
 .full-chat-block {
     width: 500px;
