@@ -95,7 +95,7 @@
 
 .userText {
   color: white;
-  font-family: Helvetica;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: normal;
   text-align: right;
@@ -116,7 +116,7 @@
 
 .botText {
   color: #000;
-  font-family: Helvetica;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: normal;
   font-size: 16px;
   text-align: left;
@@ -141,7 +141,7 @@
   }
 
   to {
-    transform: translateY(n);
+    transform: translateY(0px);
     opacity: 1;
   }
 }
@@ -149,7 +149,7 @@
 @media screen and (max-width: 600px) {
   .full-chat-block {
     width: 100%;
-    border-radius: none;
+    border-radius: 0px;
   }
 
   .chat-bar-collapsible {
@@ -161,8 +161,8 @@
 
   .collapsible {
     width: 100%;
-    border: none;
+    border: no;
     border-top: 3px solid white;
-    border-radius: none;
+    border-radius: auto;
   }
 }
