@@ -14,7 +14,7 @@
   text-align: left;
   outline: none;
   font-size: 18px;
-  border-radius: 10px, 10px, 0px, 0px;
+  border-radius: 10px, 10px,;
   border: 3px solid white;
   border-bottom: none;
 }
@@ -57,8 +57,8 @@
   width: 100%;
   align-items: center;
   background-color: #ebebeb;
-  border-radius: 10px 10px 0px 0px;
-  padding: 10px 0px 10px 10px;
+  border-radius: 10px 10px;
+  padding: 10px 10px 10px;
 }
 
 .chat-bar-icons {
