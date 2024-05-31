@@ -141,7 +141,7 @@
   }
 
   to {
-    transform: translateY(0px);
+    transform: translateY(none);
     opacity: 1;
   }
 }
@@ -149,7 +149,7 @@
 @media screen and (max-width: 600px) {
   .full-chat-block {
     width: 100%;
-    border-radius: 0px;
+    border-radius: none;
   }
 
   .chat-bar-collapsible {
@@ -161,8 +161,8 @@
 
   .collapsible {
     width: 100%;
-    border: 0px;
+    border: none;
     border-top: 3px solid white;
-    border-radius: 0px;
+    border-radius: none;
   }
 }
