@@ -41,7 +41,7 @@ function getTime() {
 
 // Gets the first message
 function firstBotMessage() {
-    let firstMessage = "How's it going?"
+    let firstMessage = "Hello, I'm created by George and i'm here to help you"
     document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
 
     let time = getTime();
@@ -108,4 +108,6 @@ $("#textInput").keypress(function (e) {
     if (e.which == 13) {
         getResponse();
     }
+
+    
 });

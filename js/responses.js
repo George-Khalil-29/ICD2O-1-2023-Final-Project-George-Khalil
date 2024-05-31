@@ -22,4 +22,8 @@ function getBotResponse(input) {
     } else {
         return "Try asking something else!";
     }
+
+    // time
+
+    
 }
