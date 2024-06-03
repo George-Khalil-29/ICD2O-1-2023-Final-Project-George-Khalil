@@ -1,6 +1,6 @@
 {
-    "name": "Hello, World!",
-    "short_name": "Hello World",
+    "name": "Chat Bot",
+    "short_name": "Chat Bot",
     "start_url": "https://george-khalil-29.github.io/ICD2O-1-2023-Final-Project-George-Khalil/",
     "display": "standalone",
     "theme_color": "#ffffff",

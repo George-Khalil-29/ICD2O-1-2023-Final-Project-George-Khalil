@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <meta name="description" content="Convert Fahrenheit to Celsius" />
+    <meta name="description" content="Chat Bot" />
     <meta name="keywords" content="mths, ics2o" />
     <meta name="author" content="George, Khalil" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,11 +10,56 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
     <link rel="manifest" href="manifest.json" /> <!-- Added web app manifest -->
-    <script src="./js/script.js"></script>
-    <script src="./js/sw.js"></script>
-  <title>Hello, World!</title>
+    <link rel="stylesheet" href="css/chat.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Chat Bot</title>
 </head>
 <body>
-    <p>Hello, World!</p>
+  <!-- CHAT BAR BLOCK-->
+  <div class="chat-bar-collapsible">
+    <button id="chat-button" type="button" class="collapsible">Chat Bot
+      <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+    </button>
+     <div class="content">
+      <div class="full-chat-block">
+        <!-- Message Container -->
+        <div class="outer-container">
+          <div class="chat-container">
+          <!-- Messages -->
+          <div id="chatbox">
+            <h5 id="chat-timestamp"></h5>
+            <p id="botStarterMessage" class="bottext"><span>Loading...</span></p>
+          </div>
+          <!-- User input box -->
+          <div class="chat-bar-input-block">
+            <div id="userInput">
+              <input id="textInput" class="input-box" type="text" name="msg"
+              placeholder="Tap 'Enter' to send a message">
+              <p></p>
+            </div>
+            <div class="chat-bar-icons">
+              <i id="chat-icon1" style="color: crimson;" class="fa fa-fw fa-heart"
+              onclick="heartButton()"></i> <!-- Changed ID to chat-icon2 -->
+              <i id="chat-icon2" style="color: #333;" class="fa fa-fw fa-send"
+              onclick="sendButton()"></i>
+            </div>
+          </div>
+          <div id="chat-bar-bottom">
+            <div id="temperature"></div>
+            <div id="description"></div>
+            <p></p>
+          </div>
+        </div>
+        </div> <!-- Added closing div tag -->
+      </div>
+     </div>
+    </div>
+    <!-- This is JAVASCRIPT Codes -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/sw.js"></script>
+    <script src="./js/chat.js"></script>
+    <script src="./js/responses.js"></script>
 </body>
 </html>

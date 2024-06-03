@@ -1,7 +1,7 @@
 // This is a simple service worker that will cache all resources
 // so that it works offline
 
-const CACHE_NAME = 'hello-world-cache-v1';
+const CACHE_NAME = 'chat-bot-cache-v1';
 const urlsToCache = [
   'https://george-khalil-29.github.io/ICD2O-1-2023-Final-Project-George-Khalil/',
   'index.html' // Update with your actual HTML file name if different
