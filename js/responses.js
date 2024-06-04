@@ -5,56 +5,98 @@
 // This file contains the JS functions for index.html
 
 function getBotResponse(input) {
-  if (input === "hello") {
-      return "Hello How are you!";
+
+  if (input.toLowerCase() === "what can you do?" || input.toLowerCase() === "what can you do") {
+    return "I can play Rock, Paper, Scissors", "I can calculate numbers", "I can give you a joke"
   }
 
-  if (input === "goodbye") {
-      return "Talk to you later!";
+  if (input.toLowerCase() === "hello") {
+    return "Hello How are you!"
   }
 
-  if (input === "fun fact") {
-      const funFacts = [
-          "The shortest war in history lasted only 38 minutes between Britain and Zanzibar in 1896.",
-          "A group of flamingos is called a flamboyance.",
-          "Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible.",
-          "The Eiffel Tower can be 15 cm taller during the summer due to thermal expansion of the iron.",
-          "Octopuses have three hearts."
-      ];
-      const randomIndex = Math.floor(Math.random() * funFacts.length);
-      return funFacts[randomIndex];
+  if (input.toLowerCase() === "goodbye") {
+    return "Talk to you later!"
   }
 
-  if (input === "random number") {
-      const randomNumber = Math.floor(Math.random() * 100) + 1;
-      return `Your random number is ${randomNumber}.`;
+  if (input.toLowerCase() === "fun fact ") {
+    const funFacts = [
+      "The world's largest desert is not the Sahara, but Antarctica. It's considered a desert because it receives very little precipitation.",
+      "The world's largest desert is not the Sahara, but Antarctica. It's considered a desert because it receives very little precipitation.",
+      "The world's oldest known city is Jericho, located in the West Bank. It has been continuously inhabited for over 11,000 years.",
+      "The driest place on Earth is the Atacama Desert in Chile, where some areas have never recorded rainfall.",
+      "The city of Istanbul, Turkey, is the only city in the world located on two continents: Europe and Asia.",
+      "Russia has a larger surface area than Pluto.",
+      "Lake Baikal in Siberia, Russia, is the world's deepest and oldest freshwater lake, containing around 20% of the world's unfrozen freshwater.",
+      "The Amazon Rainforest produces around 20% of the world's oxygen.",
+      "The island nation of Tuvalu is one of the smallest countries in the world by land area and is expected to be one of the first countries to disappear due to rising sea levels caused by climate change.",
+    ]
+    const randomIndex = Math.floor(Math.random() * funFacts.length)
+    return funFacts[randomIndex]
   }
 
-  if (input.startsWith("calculate")) {
-      try {
-          const expression = input.substring(10);
-          const result = eval(expression);
-          return `The result of ${expression} is ${result}.`;
-      } catch (error) {
-          return "Sorry, I couldn't evaluate that expression.";
-      }
+  if (input.toLowerCase() === "random number") {
+    const randomNumber = Math.floor(Math.random() * 100) + 1
+    return `Your random number is ${randomNumber}.`
   }
 
-  if (input === "time") {
-      const now = new Date();
-      const timeString = now.toLocaleTimeString();
-      return `The current time is ${timeString}.`;
+  if (/^[0-9+\-*/().]/.test(input)) {
+    try {
+      const result = eval(input)
+      return `The result of ${input} is ${result}.`
+    } catch (error) {
+      return "Sorry, I couldn't evaluate that expression."
+    }
   }
 
-  if (input === "joke") {
-      // Implement joke API integration to fetch a random joke
-      return "Why don't scientists trust atoms? Because they make up everything!";
+  if (input.toLowerCase() === "time") {
+    const now = new Date();
+    const hours = now.getHours();
+    const minutes = now.getMinutes();
+    const ampm = hours >= 12 ? 'PM' : 'AM';
+    const formattedHours = hours % 12 || 12; // Convert 0 to 12 for 12-hour clock
+    const timeString = `${formattedHours}:${minutes.toString().padStart(2, '0')} ${ampm}`;
+    return `The current time is ${timeString}.`;
+}
+
+  if (input.toLowerCase() === "joke") {
+    
+    const joke = ["Why couldn't the bicycle stand up by itself? It was two-tired!",
+                  "What do you call fake spaghetti? An impasta!",
+                  "I'm reading a book on anti-gravity. It's impossible to put down!",
+                  "I used to play piano by ear, but now I use my hands.",
+                  "I told my computer I needed a break... now it won't stop sending me spam!",
+                  "Why was the computer cold? It left its Windows open!",
+                  "Why did the computer go to the doctor? It had a virus!",
+                  "Why did the computer go to the dentist? It had Bluetooth!",
+                  "Why was the JavaScript developer sad? Because he didn't know how to null his feelings!",
+                  "Why did the programmer always wear glasses? Because he couldn't C#!",
+    ]
+    const randomIndex = Math.floor(Math.random() * joke.length)
+    return joke[randomIndex]
   }
 
-  if (input === "riddle") {
-      // Implement riddle functionality to provide a random riddle
-      return "I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?";
-  }
+  if (input.toLowerCase() === "riddle") {
+    const riddles = [
+        "What has a head and a tail but no body? (A coin)",
+        "What has keys but can't open locks? (A piano)",
+        "What has a neck but no head? (A bottle)",
+        "The more you take, the more you leave behind. What am I? (Footsteps)",
+        "What can travel around the world while staying in a corner? (A stamp)"
+        // Add more riddles here
+    ];
 
-  return "I'm sorry, I didn't understand that. Please try again.";
+    const randomIndex = Math.floor(Math.random() * riddles.length);
+    return riddles[randomIndex];
+}
+
+if (input.toLowerCase() === "rock") {
+    return "paper";
+} else if (input.toLowerCase() === "paper") {
+    return "scissors";
+} else if (input.toLowerCase() === "scissors") {
+    return "rock";
+}
+
+
+  return "I'm sorry, I didn't understand that. Please try again."
 }
