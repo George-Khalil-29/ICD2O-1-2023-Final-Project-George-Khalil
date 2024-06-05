@@ -6,8 +6,11 @@
 
 function getBotResponse(input) {
 
-  if (input.toLowerCase() === "what can you do?" || input.toLowerCase() === "what can you do") {
-    return "I can play Rock, Paper, Scissors", "I can calculate numbers", "I can give you a joke"
+  if (input.toLowerCase() === "what can you do") {
+    return  [ "I can play Rock, Paper, Scissors",
+     "I can calculate numbers",
+      "I can give you a joke."
+    ]
   }
 
   if (input.toLowerCase() === "hello") {
