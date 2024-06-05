@@ -17,6 +17,10 @@ function getBotResponse(input) {
     return "Hello How are you!"
   }
 
+  if (input.toLowerCase() === "how are you") {
+    return "i'm fine, thank you"
+  }
+
   if (input.toLowerCase() === "goodbye") {
     return "Talk to you later!"
   }
