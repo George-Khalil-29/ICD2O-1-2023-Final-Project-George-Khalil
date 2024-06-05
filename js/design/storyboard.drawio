@@ -1,0 +1,34 @@
+<mxfile host="65bd71144e">
+    <diagram id="HjG4sIxepnyEQtWNnob_" name="Page-1">
+        <mxGraphModel dx="441" dy="314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="https://george-khalil-29.github.io/ICD2O-1-2023-Final-Project-George-Khalil/" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="135" y="260" width="558" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D3D3D3;strokeColor=#FFFFFF;" vertex="1" parent="3">
+                    <mxGeometry x="179" y="65" width="200" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=none;" vertex="1" parent="3">
+                    <mxGeometry x="179" y="285" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;font style=&quot;font-size: 10px;&quot; color=&quot;#000000&quot;&gt;Massage ChatBot&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D3D3D3;strokeColor=none;" vertex="1" parent="3">
+                    <mxGeometry x="185" y="295" width="154" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#D3D3D3;image=data:image/svg+xml,PHN2ZyB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWw6c3BhY2U9InByZXNlcnZlIiB2aWV3Qm94PSIwIDAgNDk1LjAwMyA0OTUuMDAzIiBpZD0iQ2FwYV8xIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSI4MDBweCIgaGVpZ2h0PSI4MDBweCIgZmlsbD0iIzAwMDAwMCI+CjxnIGlkPSJYTUxJRF81MV8iPgoJPHBhdGggZD0iTTE2NC43MTEsNDU2LjY4N2MwLDIuOTY2LDEuNjQ3LDUuNjg2LDQuMjY2LDcuMDcyYzIuNjE3LDEuMzg1LDUuNzk5LDEuMjA3LDguMjQ1LTAuNDY4bDU1LjA5LTM3LjYxNiYjMTA7JiM5OyYjOTtsLTY3LjYtMzIuMjJWNDU2LjY4N3oiIGlkPSJYTUxJRF81M18iLz4KCTxwYXRoIGQ9Ik00OTIuNDMxLDMyLjQ0M2MtMS41MTMtMS4zOTUtMy40NjYtMi4xMjUtNS40NC0yLjEyNWMtMS4xOSwwLTIuMzc3LDAuMjY0LTMuNSwwLjgxNkw3LjkwNSwyNjQuNDIyJiMxMDsmIzk7JiM5O2MtNC44NjEsMi4zODktNy45MzcsNy4zNTMtNy45MDQsMTIuNzgzYzAuMDMzLDUuNDIzLDMuMTYxLDEwLjM1Myw4LjA1NywxMi42ODlsMTI1LjM0Miw1OS43MjRsMjUwLjYyLTIwNS45OUwxNjQuNDU1LDM2NC40MTQmIzEwOyYjOTsmIzk7bDE1Ni4xNDUsNzQuNGMxLjkxOCwwLjkxOSw0LjAxMiwxLjM3Niw2LjA4NCwxLjM3NmMxLjc2OCwwLDMuNTE5LTAuMzIyLDUuMTg2LTAuOTc3YzMuNjM3LTEuNDM4LDYuNTI3LTQuMzE4LDcuOTctNy45NTYmIzEwOyYjOTsmIzk7TDQ5NC40MzYsNDEuMjU3QzQ5NS42NiwzOC4xODgsNDk0Ljg2MiwzNC42NzksNDkyLjQzMSwzMi40NDN6IiBpZD0iWE1MSURfNTJfIi8+CjwvZz4KPC9zdmc+;" vertex="1" parent="3">
+                    <mxGeometry x="354" y="297.5" width="15" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;font style=&quot;font-size: 9px;&quot; color=&quot;#000000&quot;&gt;Hello, How can I help you?&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#647687;strokeColor=none;fontColor=#ffffff;" vertex="1" parent="3">
+                    <mxGeometry x="184" y="255" width="115" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;b&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;2:13 PM&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;fontColor=#000000;" vertex="1" parent="3">
+                    <mxGeometry x="253" y="225" width="50" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;font style=&quot;font-size: 10px;&quot; color=&quot;#ffffff&quot;&gt;&amp;nbsp;Chat Bot&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;fontColor=#000000;fillColor=#3B7CFF;strokeColor=none;" vertex="1" parent="3">
+                    <mxGeometry x="179" y="65" width="200" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
