@@ -2,7 +2,7 @@
   position: fixed;
   bottom: 0;
   right: 35%;
-  box-shadow:  8px 16px  #0003;
+  box-shadow: 8px 16px  #0003;
 }
 
 .collapsible {
@@ -89,7 +89,7 @@
   padding: 10px;
   font-size: 16px;
   color: #000;
-  background-color: #ffffff;
+  background-color: #fff;
   outline: none;
 }
 
@@ -141,7 +141,7 @@
   }
 
   to {
-    transform: translateY(0px);
+    transform: translateY(none);
     opacity: 1;
   }
 }
@@ -149,7 +149,7 @@
 @media screen and (max-width: 600px) {
   .full-chat-block {
     width: 100%;
-    border-radius: 0px;
+    border-radius: none;
   }
 
   .chat-bar-collapsible {
